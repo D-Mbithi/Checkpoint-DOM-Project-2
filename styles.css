@@ -1,0 +1,45 @@
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+button{
+    padding: 10px 30px;
+}
+
+.color{
+    width: 300px;
+    height: 300px;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.colors{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+#color-1{
+    background-color: aliceblue;
+}
+
+#color-2{
+    background-color: antiquewhite;
+}
+
+#color-3{
+    background-color: aqua;
+}
+
+#color-4{
+    background-color: azure;
+}
+
+#color-5{
+    background-color: bisque;
+}
