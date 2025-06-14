@@ -6,11 +6,11 @@ main{
     gap: 50px;
 }
 
-button{
+#change-color-btn{
     padding: 10px 30px;
 }
 
-.color{
+.color-box{
     width: 300px;
     height: 300px;
     border: 2px solid #000;

@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const divs = document.getElementsByClassName("color");
-  const button = document.getElementById("button");
+  const divs = document.getElementsByClassName("color-box");
+  const button = document.getElementById("change-color-btn");
 
-  function randomColor() {
+  function getRandomColor() {
     const letters = "0123456789ABCDEF";
     let color = "#";
 
@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   button.addEventListener("click", () => {
     for (item of divs) {
-      item.style.background = randomColor();
+      item.style.background = getRandomColor();
     }
   });
 });
